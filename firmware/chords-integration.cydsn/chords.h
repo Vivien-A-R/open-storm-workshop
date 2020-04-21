@@ -1,7 +1,7 @@
 #include <device.h>
 
 // Chords parameters
-char  *chords_endpoint = "ec2-3-13-105-177.us-east-2.compute.amazonaws.com";   // Your CHORDS portal URL
+char  *chords_endpoint = "ec2-3-19-12-100.us-east-2.compute.amazonaws.com";   // Your CHORDS portal URL (currently set to 
 int   chords_port = 80;                             // Port 80 for a standard webpage connection
 char  *chords_write_key = "key";                    // Your key for writing to CHORDS
 uint8 write_key_enabled = 1u;                       // Set to 1 if you want to require a key for write access
